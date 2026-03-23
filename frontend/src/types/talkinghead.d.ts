@@ -62,11 +62,5 @@ declare module "@met4citizen/talkinghead" {
       mirror?: boolean,
       ms?: number
     ): void;
-
-    playPose(name: string): void;
-
-    speakMarker(onmarker: () => void): void;
-
-    isSpeaking: boolean;
   }
 }
