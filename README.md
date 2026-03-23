@@ -108,7 +108,7 @@ cp .env.example .env               # then fill in OPENAI_API_KEY
 python seed.py
 
 # Start the API server
-uvicorn app.main:app --reload --port 8000
+uvicorn app.main:app --reload --port 8000 --host 0.0.0.0
 ```
 
 The API will be available at **http://localhost:8000**
